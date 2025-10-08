@@ -8,7 +8,7 @@
   <body>
     <div id="app">
       <header
-        class="mx-auto flex items-center justify-between bg-white p-6 shadow-lg"
+        class="mx-auto flex max-w-7xl items-center justify-between bg-white p-6"
       >
         <h1 class="font-serif text-2xl">Find</h1>
         <nav class="flex gap-x-3 sm:gap-x-6">
@@ -18,21 +18,23 @@
         </nav>
       </header>
       <section
-        class="bg-black/40 bg-[url(/hero.jpg)] bg-cover bg-center px-6 py-20 text-white bg-blend-overlay"
+        class="bg-black/40 bg-[url(/hero.jpg)] bg-cover bg-center text-white bg-blend-overlay"
       >
-        <h2 class="mb-6 text-4xl">Professional leasing. 4% fee.</h2>
-        <h3 class="">
-          Find replaces the traditional broker with a modern, tech-enabled
-          leasing platform.
-        </h3>
-        <h3 class="mb-6">
-          Same qualified tenants, same results, a fraction of the cost.
-        </h3>
-        <a
-          href="tel:+19177224415"
-          class="rounded-full border-b-2 border-b-gray-300 bg-white px-4 py-2 text-sm font-semibold text-black"
-          >List your property</a
-        >
+        <div class="mx-auto max-w-7xl px-6 py-20">
+          <h2 class="mb-6 text-4xl">Professional leasing. 4% fee.</h2>
+          <h3 class="">
+            Find replaces the traditional broker with a modern, tech-enabled
+            leasing platform.
+          </h3>
+          <h3 class="mb-6">
+            Same qualified tenants, same results, a fraction of the cost.
+          </h3>
+          <a
+            href="tel:+19177224415"
+            class="rounded-full border-b-2 border-b-gray-300 bg-white px-4 py-2 text-sm font-semibold text-black"
+            >List your property</a
+          >
+        </div>
       </section>
       <section class="bg-white py-20" id="how-it-works">
         <div class="mx-auto max-w-7xl px-6 text-center">
@@ -110,7 +112,7 @@
           </div>
         </div>
       </section>
-      <section class="bg-gray-200 py-12">
+      <section class="bg-gray-50 py-12">
         <div class="mx-auto max-w-3xl px-6 text-center">
           <img
             src="/door.jpg.webp"
@@ -124,10 +126,10 @@
         </div>
       </section>
       <section class="px-6 pb-6">
-        <div class="mt-8 overflow-x-auto">
-          <table
-            class="min-w-full overflow-hidden rounded-xl border border-gray-200 text-sm"
-          >
+        <div
+          class="mx-auto mt-8 max-w-3xl overflow-hidden rounded-xl border border-gray-200"
+        >
+          <table class="min-w-full text-sm">
             <thead class="border-b border-gray-200 bg-gray-50">
               <tr>
                 <th
@@ -185,7 +187,7 @@
           </table>
         </div>
       </section>
-      <section id="faq" class="border-t border-gray-200 bg-gray-50 pt-20">
+      <section id="faq" class="border-t border-gray-200 bg-gray-50 py-20">
         <div class="mx-auto max-w-4xl px-6">
           <h2 class="text-center text-3xl font-semibold text-gray-900">FAQ</h2>
           <p class="mt-3 text-center text-lg text-gray-600">
@@ -239,7 +241,7 @@
         </div>
       </section>
 
-      <footer id="contact" class="mt-20 border-t border-gray-200 bg-gray-50">
+      <footer id="contact" class="border-t border-gray-200 bg-white">
         <div
           class="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-6 py-12 text-sm text-gray-600 md:grid-cols-3"
         >
